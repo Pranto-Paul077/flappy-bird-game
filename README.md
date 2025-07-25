@@ -50,6 +50,8 @@ class Bird:
     def draw(self):
         screen.blit(bird_img, (BIRD_X, self.y))
 
+
+
 # Pipe class
 class Pipe:
     def __init__(self, x):
